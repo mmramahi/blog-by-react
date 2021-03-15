@@ -1,0 +1,19 @@
+{
+  "blogs": [
+    {"id":1,
+      "tilte":"How Can AI Improve a Product’s User Experience?",
+      "snippet":"A few things to keep in mind about improving a product’s UX with AI",
+      "body":"Experts already understand that AI is the most useful when it helps humans work faster by enhancing their capabilities. It is already happening in sectors such as the creative and the technology industries. The most important thing to remember here is that AI shouldn’t confuse us when we use digital products to help us achieve our goals fast. By “not confuse us,” I mean giving us enough feedback to understand that we are on the right path to achieve our goals and what’s possible to do next."
+    },
+    {"id":2,
+      "tilte":"Using Conversational AI to Make Humans Better at Work, and Work Better for Humans",
+      "snippet":"Ideas from Deloitte: How the next generation digital workplace will leverage technology to create personalized experiences for workers.",
+      "body":"If there’s a silver lining to be found amid the devastation of the global pandemic it might be the way it’s snapped everyone’s priorities into sharp focus. From a business perspective, the boundaries between work and life have disintegrated for virtual workers, and frontline workers are busier than ever. Organizations need to respond by reimagining the way they support and empower their workforces using technology."
+    },
+    {"id":3,
+      "tilte":"Five Positive Design Trends Informed by Crisis and Change",
+      "snippet":"A world in upheaval creates new opportunities for designers to impact the greater good",
+      "body":"While the gravity of the global pandemic continues to weigh on us all, it has brought with it a certain amount of clarity. This crisis, along with the Black Lives Matter movement and the ongoing fight against climate change, has given rise to some markers for positive changes. As our priorities have been forcibly realigned, ethically motivated consumers have created a new value system for brands, protecting consumers, preserving culture, and providing hope. Brands have started to care more about inclusion and diversity, as well as sustainability. UX designers have naturally adopted these trends as design continues to transform companies and the products they create. The emerging trends described below aren’t necessarily new but are indicative of a world changed as we move ahead into 2021."
+    }
+  ]
+}
