@@ -8,6 +8,8 @@ import Home from "./Home";
 import About from "./About";
 import NotFoun from "./NotFoun";
 import Blog from "./Blog";
+import SignUp from "./SignUp";
+import LogIn from "./LogIn";
 
 function App() {
   const [blogs, setBlogs] = useState([]);
@@ -33,6 +35,12 @@ function App() {
             </Route>
             <Route exact path="/about">
               <About />
+            </Route>
+            <Route exact path="/signup">
+              <SignUp />
+            </Route>
+            <Route exact path="/login">
+              <LogIn />
             </Route>
             <Route exact path="/:y">
               <Blog blogs={blogs} />
