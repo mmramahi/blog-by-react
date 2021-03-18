@@ -10,6 +10,7 @@ import NotFoun from "./NotFoun";
 import Blog from "./Blog";
 import SignUp from "./SignUp";
 import LogIn from "./LogIn";
+import CreatBlog from "./CreatBlog";
 
 function App() {
   const [blogs, setBlogs] = useState([]);
@@ -41,6 +42,9 @@ function App() {
             </Route>
             <Route exact path="/login">
               <LogIn />
+            </Route>
+            <Route exact path="/creat">
+              <CreatBlog />
             </Route>
             <Route exact path="/:y">
               <Blog blogs={blogs} />
