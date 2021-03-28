@@ -2,13 +2,23 @@ export function getBlogs() {
   return fetch("http://localhost:3333/blogs").then((data) => data.json());
 }
 
-export function setItem(item) {
-  return fetch("http://localhost:3333/list", {
+export function setUser(user) {
+  return fetch("http://localhost:3333/users", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ item }),
+    body: JSON.stringify({ user }),
+  }).then((data) => data.json());
+}
+
+export function setBlog(blog) {
+  return fetch("http://localhost:3333/blogs", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ blog }),
   }).then((data) => data.json());
 }
 
